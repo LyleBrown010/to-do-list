@@ -20,7 +20,9 @@ function add() {
     list.innerHTML = " ";
     toDoList.forEach((data) => {
     list.innerHTML += 
-    `<li class="list">${data.name}</li>`;
+    `
+    
+    <li class="list">${data.name}</li>`;
     });
 
 
@@ -29,7 +31,9 @@ function add() {
 };
 
 function sort(){
-    
+    toDoList.sort(); 
+    document.querySelector(".display").innerHTML = toDoList;
 }
+// sort();
 
 
