@@ -29,11 +29,15 @@ function add() {
 
 
 };
-
+// sort function 
 function sort(){
     toDoList.sort(); 
     document.querySelector(".display").innerHTML = toDoList;
 }
 // sort();
 
+
+// checkbox function with line through
+
+// remove function 
 
